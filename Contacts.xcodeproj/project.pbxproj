@@ -16,6 +16,11 @@
 		BF4856A020A2143C00B6AC6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF48569F20A2143C00B6AC6F /* main.m */; };
 		BF4856AA20A2143C00B6AC6F /* ContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4856A920A2143C00B6AC6F /* ContactsTests.m */; };
 		BF4856B520A2143C00B6AC6F /* ContactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4856B420A2143C00B6AC6F /* ContactsUITests.m */; };
+		BF9CB35B20A337EE00CD6C72 /* CustomerObj.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9CB35A20A337EE00CD6C72 /* CustomerObj.m */; };
+		BFB1C0B420A4C89A00088D9B /* addContact.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB1C0B320A4C89A00088D9B /* addContact.m */; };
+		BFDBA64820A5E1A600477430 /* Mr._Smiley_Face.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDBA64720A5E1A500477430 /* Mr._Smiley_Face.svg.png */; };
+		BFF0A51720A4D6FE00DC233C /* editContact.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF0A51620A4D6FE00DC233C /* editContact.m */; };
+		BFF300B420A62BBF0016A064 /* viewContact.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF300B320A62BBF0016A064 /* viewContact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		BF4856B020A2143C00B6AC6F /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4856B420A2143C00B6AC6F /* ContactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsUITests.m; sourceTree = "<group>"; };
 		BF4856B620A2143C00B6AC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9CB35920A337D400CD6C72 /* CustomerObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerObj.h; sourceTree = "<group>"; };
+		BF9CB35A20A337EE00CD6C72 /* CustomerObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerObj.m; sourceTree = "<group>"; };
+		BFB1C0B220A4C7FA00088D9B /* addContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addContact.h; sourceTree = "<group>"; };
+		BFB1C0B320A4C89A00088D9B /* addContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addContact.m; sourceTree = "<group>"; };
+		BFDBA64720A5E1A500477430 /* Mr._Smiley_Face.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mr._Smiley_Face.svg.png; path = ../../../../Desktop/Mr._Smiley_Face.svg.png; sourceTree = "<group>"; };
+		BFF0A51620A4D6FE00DC233C /* editContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = editContact.m; sourceTree = "<group>"; };
+		BFF0A51820A4D71B00DC233C /* editContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editContact.h; sourceTree = "<group>"; };
+		BFF300B220A62BAF0016A064 /* viewContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewContact.h; sourceTree = "<group>"; };
+		BFF300B320A62BBF0016A064 /* viewContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewContact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +117,20 @@
 		BF48568C20A2143A00B6AC6F /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				BFDBA64720A5E1A500477430 /* Mr._Smiley_Face.svg.png */,
 				BF48568D20A2143A00B6AC6F /* AppDelegate.h */,
 				BF48568E20A2143A00B6AC6F /* AppDelegate.m */,
 				BF48569020A2143A00B6AC6F /* ViewController.h */,
 				BF48569120A2143A00B6AC6F /* ViewController.m */,
+				BF9CB35920A337D400CD6C72 /* CustomerObj.h */,
+				BF9CB35A20A337EE00CD6C72 /* CustomerObj.m */,
 				BF48569320A2143A00B6AC6F /* Main.storyboard */,
+				BFF0A51820A4D71B00DC233C /* editContact.h */,
+				BFF0A51620A4D6FE00DC233C /* editContact.m */,
+				BFB1C0B220A4C7FA00088D9B /* addContact.h */,
+				BFF300B220A62BAF0016A064 /* viewContact.h */,
+				BFF300B320A62BBF0016A064 /* viewContact.m */,
+				BFB1C0B320A4C89A00088D9B /* addContact.m */,
 				BF48569920A2143C00B6AC6F /* Assets.xcassets */,
 				BF48569B20A2143C00B6AC6F /* LaunchScreen.storyboard */,
 				BF48569E20A2143C00B6AC6F /* Info.plist */,
@@ -239,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF48569D20A2143C00B6AC6F /* LaunchScreen.storyboard in Resources */,
+				BFDBA64820A5E1A600477430 /* Mr._Smiley_Face.svg.png in Resources */,
 				BF48569A20A2143C00B6AC6F /* Assets.xcassets in Resources */,
 				BF48569520A2143A00B6AC6F /* Main.storyboard in Resources */,
 			);
@@ -265,10 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9CB35B20A337EE00CD6C72 /* CustomerObj.m in Sources */,
 				BF48569220A2143A00B6AC6F /* ViewController.m in Sources */,
+				BFF0A51720A4D6FE00DC233C /* editContact.m in Sources */,
+				BFB1C0B420A4C89A00088D9B /* addContact.m in Sources */,
 				BF48568F20A2143A00B6AC6F /* AppDelegate.m in Sources */,
 				BF4856A020A2143C00B6AC6F /* main.m in Sources */,
 				BF48569820A2143A00B6AC6F /* Contacts.xcdatamodeld in Sources */,
+				BFF300B420A62BBF0016A064 /* viewContact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

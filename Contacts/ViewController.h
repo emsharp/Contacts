@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+@import Contacts;
+@import ContactsUI;
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>//,addContactDelegate>
+{
+    
+    IBOutlet UITableView *myTable;
+    NSMutableArray *myArray;
+    
+}
+- (IBAction)addContact:(id)sender;
+- (void)receivedAddContact:(CNMutableContact *)addedContact;
 
 @end
 
